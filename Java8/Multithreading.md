@@ -40,6 +40,16 @@ it is important to ensure that locks are acquired and released in a consistent o
 - independent sequential path of execution within a program
 - threads indpending and don't share memory <br/>
 
+**A piece of logic marked with synchronized becomes a synchronized block, allowing only one thread to execute at any given time.**
+- When we use a synchronized block, Java internally uses a **monitor**, also known as a monitor lock or intrinsic lock, to provide synchronization. 
+
+```
+public synchronized void synchronisedCalculate() {
+    setSum(getSum() + 1);
+}
+```
+
+
     
 
   
