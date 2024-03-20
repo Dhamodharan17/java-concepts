@@ -32,17 +32,14 @@ for each other to release a lock, resulting in a deadlock situation where none o
 it is important to ensure that locks are acquired and released in a consistent order, and to avoid holding onto locks for long periods of time.
 
 ## Multitasking 
-- **multitasking allows several activities to run concurrently on the computer.**
-
-  **Types**
-  1. Process based multitasking - running notepad and music player
-  2. Thread based - video player ( one thread handle video and another audio)
-
-**Thread** 
+- **multitasking allows several activities to run concurrently on the computer.** <br/>
+ 1. Process based multitasking - running notepad and music player
+ 2. Thread based - video player ( one thread handle video and another audio)<br/>
+ 
+**Thread** <br/>
 - independent sequential path of execution within a program
-- threads indpending and don't share memory
-**Process**
-  - instance of program that being executed
+- threads indpending and don't share memory <br/>
+
     
 
   
